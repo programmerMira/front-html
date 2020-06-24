@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>SignUpPage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="..\..\css\style.min.css">
+</head>
+<body>
+<section class="login-bg">
+    <div class="auth-block auth-block--reg">
+        <span class="auth-block__close" onclick="window.location.href='home.html'"></span>
+
+        <p class="auth-block__title auth-block__title--reg">Регистрация</p>
+
+        
+
+            <input type="text" 
+                class="auth-block__input"
+                name="first_name"
+                placeholder="Ваше имя"
+            >
+            <p class="auth-block__hint auth-block__hint--error">
+                
+                    <span></span>
+            </p>
+
+            <input type="text" 
+                class="auth-block__input"
+                name="last_name"
+                placeholder="Ваша фамилия"
+            >
+            <p class="auth-block__hint auth-block__hint--error">
+            </p>
+
+            <input type="text" 
+                class="auth-block__input"
+                placeholder="E-mail"
+            >
+            <p class="auth-block__hint auth-block__hint--error">
+                <span></span>
+            </p>
+
+            <input type="text" 
+                class="auth-block__input"
+                placeholder="Телефон"
+            >
+            <p class="auth-block__hint auth-block__hint--error">
+                
+            </p>
+
+            <input type="password" 
+                class="auth-block__input"
+                placeholder="Пароль"
+            >
+            <p class="auth-block__hint auth-block__hint--error">
+                
+            </p>
+
+            <input type="password" 
+                class="auth-block__input"
+                placeholder="Подтвердите пароль"
+            >
+            <p class="auth-block__hint auth-block__hint--error">
+            </p>
+
+            <div class="text-center">
+                <button class="button auth-block__button" onclick="window.location.href='confirm.html'">Зарегистрироваться</button>
+            </div>
+        
+        <p class="auth-block__agree">Нажимая на кнопку, Вы даете согласие на обработку персональных данных и соглашаетесь с <a href="#">политикой конфиденциальности</a></p>
+    </div>
+</section>
+</body>
+</html>

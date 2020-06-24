@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>IdentificationPage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="..\..\css\style.min.css">
+</head>
+<body>
+<section class="page">
+
+    <!-- MENU -->
+    <nav class="menu">
+        <a class="menu__link " href="keys.html">
+          <span class="menu__icon"><img src="..\..\img\menu1.svg" alt=""></span>
+          Мои ключи
+		</a>
+		<a class="menu__link " href="payment.html">
+          <span class="menu__icon"><img src="..\..\img\menu7.svg" alt=""></span>
+          Оплата
+		</a>
+		<a class="menu__link " href="settings.html">
+          <span class="menu__icon" ><img src="..\..\img\menu4.svg" alt=""></span>
+          Настройки
+		</a>
+		<a class="menu__link " href="identification.html">
+          <span class="menu__icon"><img src="..\..\img\menu-lk1.svg" alt=""></span>
+          Распознавание
+		</a>
+    </nav>
+    <div class="page__block">
+
+        <!-- HEADER -->
+
+        <div class="page__header">
+            <div class="page__profile" id="header-profile">
+                <div class="page__ava">КК</div>
+                <p class="page__name">
+                    Константин Константиновольский
+                    <span class="page__company">Название компании</span>
+                </p>
+                <div class="page__profile-menu" id="header-profile-menu">
+                    <a>Настройки</a>
+                    <a>Выйти</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTENT -->
+
+        <section class="page__content-wrap">
+			<div class="page__top">
+				<div class="page__title__header">
+					<h1 class="page__title">Распознавание</h1>
+				</div>						
+			</div>
+			
+			<div class="create-block">
+				<p class="create-block__label create-block__label--bold">Загрузите документ</p>
+
+				
+	
+					<p class="create-block__label create-block__label--light create__label--light-text">1. Укажите тип документа</p>
+					<div class="radio--inline">
+						<label class="radio radio--create">
+							<input type="checkbox" class="radio__input">
+							<div class="radio__text">
+								Паспорт
+							</div>
+						</label>
+						<label class="radio radio--create">
+							<input type="checkbox" class="radio__input">
+							<div class="radio__text">
+								Свидетельство регистрации или ПТС
+							</div>
+						</label>
+						<label class="radio radio--create">
+							<input type="checkbox" class="radio__input">
+							<div class="radio__text">
+								Права
+							</div>
+						</label>
+					</div>
+					
+					<div class="radio--inline">
+						<label class="radio radio--create">
+							<input type="checkbox" class="radio__input">
+							<div class="radio__text radio__text--square">
+								2-3 страница
+							</div>
+						</label>
+						<label class="radio radio--create">
+							<input type="checkbox" class="radio__input">
+							<div class="radio__text radio__text--square">
+								4-5 страница
+							</div>
+						</label>
+					</div>
+					<p class="create-block__label create-block__label--light create__label--light-text">2. Загрузите файл (jpeg, jpg, png не более 10мб )</p>
+						
+					<input type="text" class="create-block__input create-block__input--semifull"
+						name="name"
+					>
+						
+					<div class="text-center">
+						<button type="submit" class="button--right--inline">Загрузить</button>
+					</div>
+						
+					<div class="text-center">
+						<button type="submit" class="button create-block__button button--left">Распознать</button>
+					</div>
+				
+					
+			</div>
+				
+			<div class="create-block">
+				<div class="text--center">
+					<p class="create-block__label create-block__label--bold">Распознанные данные</p>
+					<div class="edit--image">
+						<img src="..\..\img\edit-icon.svg">
+						<img src="..\..\img\reset-icon.svg">
+					</div>
+					<div class="image--fit">
+						<img src="..\..\img\word.svg">
+						<img src="..\..\img\pdf.png">
+						<img src="..\..\img\csv.png">
+					</div>										
+				</div>
+				<div class="scrollbar" id="style-1">
+					<div class="force-overflow">
+						<p class="create-block__label create-block__label--light create__label--light-text">Поле</p>
+						<span class="page__company text--margin">Значение</span>
+						
+						<p class="create-block__label create-block__label--light create__label--light-text">Поле</p>
+						<span class="page__company text--margin">Алина</span>
+						
+						<p class="create-block__label create-block__label--light create__label--light-text">Поле</p>
+						<span class="page__company text--margin">Значение</span>
+						
+						<p class="create-block__label create-block__label--light create__label--light-text">Поле</p>
+						<span class="page__company text--margin">Значение</span>
+						
+						<p class="create-block__label create-block__label--light create__label--light-text">Поле</p>
+						<span class="page__company text--margin">Значение</span>
+					</div>
+				</div>
+				
+			</div>	
+		
+        </section>
+
+        <!-- FOOTER -->
+        <div class="page__footer"></div>
+    </div>
+</section>
+</body>
+</html>

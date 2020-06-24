@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>KeyPage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="..\..\css\style.min.css">
+</head>
+<body>
+<section class="page">
+
+    <!-- MENU -->
+    <nav class="menu">
+        <a class="menu__link " href="html/system/keys.html">
+          <span class="menu__icon"><img src="..\..\img\menu1.svg" alt=""></span>
+          Мои ключи
+		</a>
+		<a class="menu__link " href="html/system/payment.html">
+          <span class="menu__icon"><img src="..\..\img\menu7.svg" alt=""></span>
+          Оплата
+		</a>
+		<a class="menu__link " href="html/system/settings.html">
+          <span class="menu__icon" ><img src="..\..\img\menu4.svg" alt=""></span>
+          Настройки
+		</a>
+		<a class="menu__link " href="html/system/identification.html">
+          <span class="menu__icon"><img src="..\..\img\menu-lk1.svg" alt=""></span>
+          Распознавание
+		</a>
+    </nav>
+    <div class="page__block">
+
+        <!-- HEADER -->
+
+        <div class="page__header">
+            <div class="page__profile" id="header-profile">
+                <div class="page__ava">КК</div>
+                <p class="page__name">
+                    Константин Константиновольский
+                    <span class="page__company">Название компании</span>
+                </p>
+                <div class="page__profile-menu" id="header-profile-menu">
+                    <a>Настройки</a>
+                    <a>Выйти</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTENT -->
+        <section class="page__content-wrap">
+           <div class="modal modal--full ">
+				<div class="modal__block modal__block--delete">
+					<span class="modal__close" onclick="window.location.href='html/system/keys.html'"><img src="..\..\img\close.svg" alt=""></span>
+
+					<p class="modal__delete-text">Pop up</p>
+
+					<div class="modal__buttons">
+						<button class="button button--black modal__delete-button" onclick="window.location.href='html/system/keys.html'">Удалить</button>
+						<button class="button modal__delete-button" onclick="window.location.href='html/system/keys.html'">Отмена</button>
+					</div>
+				</div>
+			</div>
+        </section>
+
+        <!-- FOOTER -->
+        <div class="page__footer"></div>
+    </div>
+</section>
+</body>
+</html>

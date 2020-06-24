@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Identification-CreatedKeyPage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="..\..\css\style.min.css">
+</head>
+<body>
+<section class="page">
+
+    <div class="page__block">
+
+        <!-- HEADER -->
+
+        <div class="page__header">
+            <div class="page__profile" id="header-profile">
+                <div class="page__ava">КК</div>
+                <p class="page__name">
+                    Константин Константиновольский
+                    <span class="page__company">Название компании</span>
+                </p>
+                <div class="page__profile-menu" id="header-profile-menu">
+                    <a>Настройки</a>
+                    <a>Выйти</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTENT -->
+
+        <section class="page__content-wrap">
+            <div class="page__content page__content--create">
+
+				<div class="page__top page__top--create">
+					<span class="page__back" onclick="window.location.href='identification-createkey.html'"><img src="..\..\img\back.svg" alt=""></span>
+					<h1 class="page__title page__title--create">Распознавание</h1>
+				</div>
+
+				<div class="create-block">
+					<p class="create-block__label create-block__label--light">Введите название компании</p>
+
+					
+						<input type="text" class="create-block__input create-block__input--full"
+							name="name" disabled placeholder="Какой-то текст"
+						>
+						<p class="auth-block__hint auth-block__hint--error">
+							
+						</p>
+						
+						
+						<p class="create-block__label create-block__label--light create__label--light-text">1. После введения названия проекта и нажатия кпопки “Создат ключ” вам будет выдан ключ доступа для использования сервиса</p>
+					
+						<div class="text-center">
+							<button class="button create-block__button button--left button--disabled">Ключ создан</button>
+						</div>
+					
+					
+					
+						<input type="text" class="create-block__input create-block__input--semifull"
+							name="name" disabled placeholder="Какой-то код"
+						>
+						<div class="text-center">
+							<button class="button--right--inline">Копировать</button>
+						</div>
+						
+						
+						<p class="create-block__label create-block__label--light create__label--light-text">2. Скопируйте ключ сейчас или в другое удобное для вас время на вкладке “Мои ключи”</p>
+					
+						<div class="text-center">
+							<button onclick="window.location.href='keys.html'" class="button create-block__button button--left">Мои ключи</button>
+						</div>
+					
+					
+				</div>
+
+			</div>
+
+        </section>
+
+        <!-- FOOTER -->
+        <div class="page__footer"></div>
+    </div>
+</section>
+</body>
+</html>

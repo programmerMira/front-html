@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>LoginPage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="..\..\css\style.min.css">
+</head>
+<body>
+<section class="login-bg">
+    <div class="auth-block">
+        <span class="auth-block__close auth-block__close--big_top" onclick="window.location.href='home.html'"></span>
+
+        <p class="auth-block__title">Вход в систему</p>
+
+        
+
+
+            <input type="text" 
+                class="auth-block__input"
+                name="email"
+                placeholder="E-mail"
+            >
+            <p class="auth-block__hint auth-block__hint--error">
+                
+            </p>
+
+            <input type="password" 
+                class="auth-block__input"
+                name="password"
+                placeholder="Пароль"
+            >
+            <p class="auth-block__hint auth-block__hint--error">
+                
+            </p>
+
+            <div class="text-center">
+                <button class="button auth-block__button" onclick="window.location.href='../system/keys.html'">Войти</button>
+            </div>
+        
+        
+
+        <p class="auth-block__forget">
+            <a class="auth-block__link" href="password.html">Забыли пароль?</a>
+        </p>
+
+        <p class="auth-block__agree">Нажимая на кнопку, Вы даете согласие на обработку персональных данных и соглашаетесь с <a href="#">политикой конфиденциальности</a></p>
+    </div>
+</section>
+</body>
+</html>
